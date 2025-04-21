@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #f0f0f0;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: #f9f9f9;
+}
